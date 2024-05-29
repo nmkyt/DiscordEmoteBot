@@ -153,7 +153,7 @@ if __name__ == "__main__":
     gui = gui.botGUI
 
     # Run the bot in a separate thread to avoid blocking the GUI
-    bot_thread = threading.Thread(target=lambda: bot.run('ENTER YOUR BOT TOKEN HERE'))
+    bot_thread = threading.Thread(target=lambda: bot.run('ODY0Nzk3MDI5NjAyNjg5MDI0.YO6q_w.lkGk3xuabOk-r8fzN1p51mEK3dw'))
     bot_thread.start()
 
     gui.mainloop()

@@ -5,8 +5,8 @@ from sqlalchemy import create_engine, Column, Integer, BigInteger, String, DateT
 from sqlalchemy.orm import sessionmaker
 
 
-# Настройка подключения к базе данных PostgreSQL через SQLAlchemy
-DATABASE_URL = "postgresql+psycopg2://postgres:775718@localhost:5432/EmoteBotDB"
+# Настройка подключения к базе данных PostgreSQL
+DATABASE_URL = "ENTER YOUR URL HERE"
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 session = Session()
