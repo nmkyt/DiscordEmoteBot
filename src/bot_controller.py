@@ -152,7 +152,6 @@ def update_database(message_id, option):
 if __name__ == "__main__":
     gui = gui.botGUI
 
-    # Run the bot in a separate thread to avoid blocking the GUI
     bot_thread = threading.Thread(target=lambda: bot.run('ENTER YOUR BOT TOKEN HERE'))
     bot_thread.start()
 
